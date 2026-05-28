@@ -6,14 +6,12 @@ namespace sim::bin
     Q_OBJECT
 
    public:
-    using AutopilotModel = sim::AutopilotModel;
-    /* Or
     enum class AutopilotModel
     {
       VT45 = 0,
       VT30 = 1,
       VT440 = 2
-    };*/
+    };
     Q_ENUM(AutopilotModel);
   };
 }
